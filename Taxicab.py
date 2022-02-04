@@ -22,7 +22,7 @@ class Taxicab():
         self.odometer += abs(distance)
 
     def move_y(self, distance):
-        self.y_coordinate += distance
+        self.y_coord += distance
         self.odometer += abs(distance)
 
 
